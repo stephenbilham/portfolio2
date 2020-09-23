@@ -1,0 +1,513 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f5f5;
+  margin-bottom: 10rem;
+}
+
+section {
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  height: 42rem;
+  background-color: #f6f5f5;
+  background-image: url("../Resources/portfolio-background.jpg");
+  background-size: cover;
+}
+
+.header-title {
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+  color: white;
+  margin: 8rem 5rem;
+}
+
+.header-title p:nth-child(1) {
+  font-family: Calibri;
+  font-weight: bold;
+  color: #e6e6e6;
+  font-size: 22px;
+}
+.header-title p:nth-child(2) {
+  font-family: Calibri;
+  font-weight: bold;
+  color: #e6e6e6;
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+.header-title p:nth-child(3) {
+  font-family: myriad pro regular;
+  color: #ffc107a1;
+  font-size: 30px;
+}
+
+.header-title p {
+  line-height: 0px;
+  margin: 45px 0px 25px;
+}
+
+/* NAVIGATION */
+
+.nav-list ul,
+li a {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1.5rem 1.5rem 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-list ul,
+li a:hover {
+  transform: translateY(-3px);
+  color: #ffc673;
+}
+/* ABOUT  */
+
+#about {
+  height: 26rem;
+  width: 80%;
+  margin: 0 12.5%;
+}
+
+#about img {
+  height: 250px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.about-container {
+  width: 80%;
+  height: 330px;
+  margin: -2rem 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 2rem;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-container p:nth-child(1) {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-family: myriad pro regular;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.about-container p:nth-child(2) {
+  font-size: 18px;
+  font-family: myriad pro regular;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.about-container p:nth-child(3) {
+  font-size: 16px;
+  font-family: myriad pro regular;
+  color: black;
+  margin-bottom: 5px;
+}
+
+/* PROJECTS  */
+
+.project-container {
+  margin-top: 10rem;
+  background-color: white;
+  height: 40rem;
+  padding: 2% 10% 0% 10%;
+}
+
+.project-text {
+  width: 500px;
+  margin: 50px 0px;
+}
+.project-text p:nth-child(1) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #3e3d3d;
+  font-size: 30px;
+  line-height: 2;
+}
+.project-text p:nth-child(2) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #737d7d;
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 5px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 300px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  margin-right: 1rem;
+  transition: transform 0.2s;
+}
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover {
+  transform: scale(1.05);
+}
+/* THIS IS THE PROJECT PLACEHOLDER PHOTOS ADD THE PHOTO HERE FOR IT TO SHOW */
+.box-1 {
+  background-image: url("../Resources/projectPlaceholder.png");
+}
+.box-2 {
+  background-image: url("../Resources/projectPlaceholder.png");
+}
+.box-3 {
+  background-image: url("../Resources/projectPlaceholder.png");
+}
+
+/* BUTTON */
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-styled {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover a {
+  color: white;
+}
+
+a:hover i {
+  color: #ffc673 !important;
+}
+
+/* FUTURE */
+
+.future {
+  position: relative;
+}
+.future-container {
+  height: 35rem;
+  padding: 2% 10% 0% 10%;
+}
+
+.future-text {
+  width: 500px;
+  margin: 50px 0px;
+}
+.future-text p:nth-child(1) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #3e3d3d;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.future-text p:nth-child(2) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #3e3d3d;
+  font-size: 22px;
+  line-height: 3;
+}
+
+.future-text p:nth-child(3),
+.future-text p:nth-child(4) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #737d7d;
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+.future-image-container {
+  position: absolute;
+  left: 60%;
+  top: 10%;
+}
+
+.future-image-container img {
+  width: 400px;
+  height: auto;
+}
+
+/* CONTACT  */
+
+#contact {
+  height: 24rem;
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+.contact-container {
+  width: 95%;
+  height: 290px;
+  margin: 0rem 0;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 2rem;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+.contact-text {
+  width: 100%;
+}
+
+.contact-container p:nth-child(1) {
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-family: myriad pro regular;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.contact-container p:nth-child(2) {
+  font-size: 16px;
+  font-family: myriad pro regular;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.contact-text p:nth-child(3) {
+  font-family: calibri;
+  color: black;
+  font-size: 18px;
+}
+.contact-text p:nth-child(4) {
+  font-family: calibri;
+  color: black;
+  font-size: 18px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1100px) {
+  .about-container p:nth-child(1) {
+    font-size: 35px;
+  }
+
+  .about-container p:nth-child(2) {
+    font-size: 16px;
+  }
+  .about-container p:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .about-container p:nth-child(5) {
+    font-size: 14px;
+  }
+
+  #about img {
+    height: 200px;
+  }
+
+  .future-text p:nth-child(3),
+  .future-text p:nth-child(4) {
+    font-size: 15px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about-container p:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .about-container p:nth-child(2) {
+    font-size: 12px;
+  }
+  .about-container p:nth-child(3) {
+    font-size: 10px;
+  }
+
+  .about-container p:nth-child(5) {
+    font-size: 10px;
+  }
+
+  #about img {
+    height: 150px;
+  }
+
+  .about-container {
+    height: 220px;
+  }
+
+  .button {
+    padding: 5px 18px;
+    font-size: 12px;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: 230px;
+    height: 250px;
+  }
+
+  .future-image-container {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .future-image-container img {
+    width: 250px;
+    height: auto;
+  }
+
+  .future-container {
+    height: 45rem;
+    padding: 2% 10% 0% 10%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #about {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .about-container {
+    width: 90%;
+    height: 280px;
+  }
+
+  .header-title p:nth-child(1),
+  .header-title p:nth-child(2),
+  .header-title p:nth-child(3) {
+    font-size: 27px;
+  }
+
+  .about-container p:nth-child(1) {
+    font-size: 35px;
+  }
+
+  .about-container p:nth-child(2) {
+    font-size: 14px;
+  }
+  .about-container p:nth-child(3) {
+    font-size: 12px;
+  }
+
+  .about-container p:nth-child(5) {
+    font-size: 12px;
+  }
+
+  #about img {
+    height: 125px;
+  }
+
+  .button {
+    padding: 3px 12px;
+    font-size: 12px;
+  }
+
+  .box-container {
+    display: grid;
+  }
+
+  .project-container {
+    margin-top: 10rem;
+    height: 70rem;
+  }
+
+  .project-text p:nth-child(2) {
+    font-size: 13px;
+    width: 80%;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    width: 230px;
+    height: 250px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .header-title p:nth-child(1) {
+    font-size: 20px;
+  }
+  .header-title p:nth-child(2),
+  .header-title p:nth-child(3) {
+    font-size: 20px;
+  }
+
+  .about-container p:nth-child(1) {
+    font-size: 26px;
+  }
+
+  .about-container p:nth-child(2) {
+    font-size: 14px;
+  }
+  .about-container p:nth-child(3) {
+    font-size: 12px;
+  }
+
+  .about-container p:nth-child(5) {
+    font-size: 12px;
+  }
+
+  #about img {
+    height: 110px;
+  }
+
+  .button {
+    padding: 3px 12px;
+    font-size: 10px;
+  }
+}
